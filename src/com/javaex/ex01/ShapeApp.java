@@ -4,7 +4,7 @@ public class ShapeApp {
 
 	public static void main(String[] args) {
 
-		// Shape s = new Shape("빨강");			==> 지우기
+		// Shape s = new Shape("빨강");			==> 추상 클래스 이므로 사용 불가
 		Circle c1 = new Circle("녹색", 10);
 		Ractangle r1 = new Ractangle("빨강", 4, 4);
 		Shape sr1 = new Ractangle("빨강", 4, 4);
